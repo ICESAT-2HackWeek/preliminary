@@ -9,10 +9,21 @@ questions:
 objectives:
 - Get conda installed!
 keypoints:
-- conda can be installed in two ways (Anaconda and Miniconda)
-- conda package manager works across systems
-
+- "everyone is encouraged to arrive with Python installed on their laptop for the project work"
+- "there are several different versions of Python, but we will use Python 3.6 for this hackathon"
+- "Conda package manager will be used to install Python and other libraries"
+- "Conda can be installed in two ways (Anaconda and Miniconda)"
+- "Conda package manager works across systems"
 ---
+
+
+### Overview of Python
+
+Python software is distributed as a series of *libraries* that are called within your code to perform certain tasks. There are many different collections, or *distributions* of Python software. Generally you install a specific distribution of Python and then add additional libraries as you need them. There are also several different *versions* of Python. The two main versions right now are 2.7 and 3.6. Some libraries only work with specific versions of Pytho
+
+So even though Python is one of the most adaptable, easy-to-use software systems, you can see there are still complexities to work out and potential challenges when delivering content to a large group. Therefore we have a number of different ways that we are trying to simplify this process to maximize your learning during the hackweek.
+
+We also provide instructions for using [Anaconda](https://www.continuum.io), which is our recommended Python distribution, for installing and working with Python on your local computer. We can assist in setting up "conda" environments that will simplify the gathering of Python libraries and version specific to the tutorial you are working on.
 
 ### What is Conda?
 [**Conda**](http://conda.pydata.org/docs/) is an **open source `package` and `environment` management system for any programming languages, but very popular among python community,** for installing multiple versions of software packages, their dependencies and switching easily between them. It works on Linux, OS X and Windows.

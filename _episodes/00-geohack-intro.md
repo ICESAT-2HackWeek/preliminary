@@ -1,7 +1,7 @@
 ---
 
 title: "Intro and Preparation for ICESat-2 Hackweek"
-teaching: 15
+teaching: 5
 exercises: 0
 questions:
 - "What is the format of this event?"
@@ -16,18 +16,15 @@ keypoints:
 - "we offer all tutorials in the Python programming language"
 - "we require everyone to work through these preliminary tutorials before arriving"
 
-- "participants will conduct tutorial exercises in a cloud environment"
-- "everyone is encouraged to arrive with Python installed on their laptop for the project work"
-- "there are several different versions of Python, but we will use Python 3.6 for this hackathon"
-- "Conda package manager will be used to install Python and other libraries"
-
 ---
 
 ### Overview
 
 Welcome to the Cryospheric Sciences with ICESat-2 hackweek! Hackweeks were originally designed by the University of Washington's [eScience Institute](https://escience.washington.edu/), and they aim to provide a welcoming learning environment where you can learn new software tools, collaborate with colleagues, build community and make progress on specific projects. Our [hackweek model](https://www.pnas.org/content/115/36/8872) is constantly evolving and we invite you actively participate as we experiment with new approaches and ideas.
 
-![png](../assets/images/hackweek_mission.png)
+<br>
+<img src="../files/images/hackweek-mission.png" width = "600" style="border:2px solid black">
+<br>
 
 This preliminary tutorial is one that we would like you to complete before arriving to the hackweek. The purpose is to learn about how we plan to work with various software tools and how you can best prepare for our event. We would like everyone works through this tutorial so that we can make the best use of our time together in person. 
 
@@ -52,9 +49,9 @@ All participants will be required to have their own laptop. The absolute minimum
 
 If you do not have a laptop, please contact us and we might be able to loan you one during the event.
 
- ### Will I need to learn a specific programming language to participate?
+### Will I need to learn a specific programming language to participate?
 
- We welcome all participants regardless of their programming background. In order to teach our content in a consistent way we need to select one programming languge. We have chosen Python because it is free and open source, and has many libraries suitable for efficient manipulation of ICESat-2 data. 
+We welcome all participants regardless of their programming background. In order to teach our content in a consistent way we need to select one programming languge. We have chosen Python because it is free and open source, and has many libraries suitable for efficient manipulation of ICESat-2 data. 
 
 If you're new to Python, here are some excellent resources we recommend working through in advance of our event:
 
@@ -68,6 +65,6 @@ If you're a Python expert, we hope you can use this event as an opportunity to s
 
 We require all participants to work through the next 3 lessons in advance of our event. The lessons are brief and will ensure that we are all set up and ready to work when we arrive.
 
-* Lesson 1: setting up a GitHub account
-* Lesson 2: connecting to our shared cloud computing environment
-* Lesson 3: installing Python on your laptop
+* [Lesson 1](https://icesat-2hackweek.github.io/preliminary/01-Git-setup): setting up a GitHub account
+* [Lesson 2](https://icesat-2hackweek.github.io/preliminary/02-JupyterHub-basics): connecting to our shared cloud computing environment
+* [Lesson 3](https://icesat-2hackweek.github.io/preliminary/03-conda-basics): installing Python on your laptop
