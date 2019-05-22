@@ -14,6 +14,12 @@ keypoints:
 - JupyterHub offers each participant their own separate Jupyter Notebook environment and disk space for storing temporary scripts and files
 ---
 
+
+### Technical Logistics
+
+Teaching software to a diverse group of participants, each with different computers and operating systems, can be challenging. As you'll learn in the next lesson, there are specific ways to configure our software for the tutorials to be successful, so it takes time to get everyone set up consistently. Our solution to this is to give everyone access to a cloud computing environment that is pre-configured for the specific software we will deploy. This cloud computing instance can be accessed from any web browser, which eliminates the need for configuring each person's individual computer. We'll tell you more about how to access this environment in Lesson 1.
+
+
 ### What is JupyterHub? 
 
 JupyterHub is a way to give a Jupyter Notebook server to each person in a group. [These slides](https://www.slideshare.net/willingc/jupyterhub-a-thing-explainer-overview?from_action=save) give a nice overview. We use JupyterHub in an educational setting because it enables us to quickly begin working with code without spending time to get the necessary libraries and dependencies set up on everyone's individual computers.
