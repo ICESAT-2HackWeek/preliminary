@@ -53,14 +53,61 @@ It will take a little bit of time for this to load - be patient! Once things are
 
 ### What is Pangeo and how is this system configured?
 
-[Pangeo](https://pangeo.io) is a community of researchers building computing tools to enable exploration of big datasets in the earth sciences. Several of us are involved in projects with NASA and NSF to build prototype systems to enable data discovery in the era of expanding data volume and complexity.
+[Pangeo](https://pangeo.io) is a community of researchers building open, reproducible and scalable scientific software tools. Several of us are involved in projects with NASA and NSF to build prototype systems to enable data discovery in the era of expanding data volume and complexity.
 
-In a nutshell, we are using tools provided by a commercial cloud vendor (Amazon Web Services) to deploy multiple virtual computing instances that can be deployed on demand in a parallel computing node. As you were waiting for Pangeo to load, there were a series of AWS virtual machines being created to support your computing environment.
-
-Pangeo uses JupyterHub as a way to give a Jupyter Notebook server to each person in a group. [These slides](https://www.slideshare.net/willingc/jupyterhub-a-thing-explainer-overview?from_action=save) give a nice overview of what JupyterHub is all about. We use JupyterHub in an educational setting because it enables us to quickly begin working with code without spending time to get the necessary libraries and dependencies set up on everyone's individual computers.
+For this hackweek have created virtual computing instances on Amazon Web Services that can be deployed on demand in a parallel computing environment. We use JupyterHub as a way to give a Jupyter Notebook server to each person in a group. [These slides](https://www.slideshare.net/willingc/jupyterhub-a-thing-explainer-overview?from_action=save) give a nice overview of what JupyterHub is all about. We use JupyterHub in an educational setting because it enables us to quickly begin working with code without spending time to get the necessary libraries and dependencies set up on everyone's individual computers.
 
 ### How do I get my code in and out of Pangeo?
 
-### How much space is allocated to me on Pangeo?
+When you start your own instance of Pangeo you will have access to your own virtual drive space. No other Pangeo users will be able to see or access your data files. Next we will explain how you can upload files to your virtual drive space and how to save files from Pangeo back to another location, such as GitHub or your own local laptop drive.
+
+First we'll show you how to pull some files from GitHub into your virtual drive space.  This will be a common task druing the hackweek: at the start of each tutorial we'll ask you to "clone" (make a copy of) the GitHub repository corresponding to the specific tutorial being taught into your Pangeo drive space.
+
+To do this, we will need to interface with the file system of Pangeo. Pangeo is deployed in a Linux operating system and we will need to open a terminal within Pangeo to manage our files. There are two ways to do this: (1) Navigate to the "File" menu, choose "New" and then "Terminal" or (2) click on the "terminal" button in JupyterLab: 
+
+<br>
+<br>
+<img src="../files/images/terminal-button.png" width = "200" style="border:2px solid black">
+<br>
+<br>
+
+This will open a new terminal tab in your JupyterLab interface:
+
+<br>
+<br>
+<img src="../files/images/terminal.png" width = "400" style="border:2px solid black">
+<br>
+<br>
+
+Now you can issue any Linux commands to manage your local file system. 
+
+Now let's clone a repository (Note: we'll be teaching about Git clone during our introductory tutorials). This tutorial is built in a repository called "preliminary", so let's try cloning that. First, navigate to the repository link [here](https://github.com/ICESAT-2HackWeek/preliminary). Next, click on the green "clone or download" button and then copy the url into your clipboard by cliking the copy button:
+
+<br>
+<br>
+<img src="../files/images/clone.png" width = "500" style="border:2px solid black">
+<br>
+<br>
+
+Now navigate back to your command line in JupyterLab. Type "git clone" and then paste in the url:
+
+<br>
+<br>
+<img src="../files/images/terminal-clone.png" width = "500" style="border:2px solid black">
+<br>
+<br>
+
+> ## NOTE
+> * Pasting something from your clipboard into the Pangeo terminal requires holding down the "shift" key and right-clicking.  This is different from the usual Linux method that only requires a right click.
+{: .callout}
+
+<br>
+
+After issuing the Git clone command you should see something like this:
+<br>
+<br>
+<img src="../files/images/clone-result.png" width = "500" style="border:2px solid black">
+<br>
+<br>
 
 ### How do I end my Pangeo session? Will I lose all of my work?
