@@ -63,7 +63,7 @@ If you're a Python expert, we hope you can use this event as an opportunity to s
 
 ### What can I do in advance to prepare?
 
-We require all participants to work through the next 3 lessons in advance of our event. The lessons are brief and will ensure that we are all set up and ready to work when we arrive.
+We require all participants to work through the next 4 lessons in advance of our event. The lessons are brief and will ensure that we are all set up and ready to work when we arrive.
 
 * [Lesson 1](https://icesat-2hackweek.github.io/preliminary/01-Git-setup): setting up a GitHub account
 * [Lesson 2](https://icesat-2hackweek.github.io/preliminary/02-JupyterHub-basics): connecting to our shared cloud computing environment
