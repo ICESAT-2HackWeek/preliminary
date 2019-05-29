@@ -67,5 +67,5 @@ We require all participants to work through the next 3 lessons in advance of our
 
 * [Lesson 1](https://icesat-2hackweek.github.io/preliminary/01-Git-setup): setting up a GitHub account
 * [Lesson 2](https://icesat-2hackweek.github.io/preliminary/02-JupyterHub-basics): connecting to our shared cloud computing environment
-* [Lesson 3] (https://icesat-2hackweek.github.io/preliminary/03-conda-basics): installing Python on your laptop
+* [Lesson 3](https://icesat-2hackweek.github.io/preliminary/03-conda-basics): installing Python on your laptop
 * [Lesson 4](https://icesat-2hackweek.github.io/preliminary/04-Earthdata): getting a NASA Earthdata login
