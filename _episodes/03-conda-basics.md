@@ -23,7 +23,7 @@ In the previous lesson we showed you a cloud-based environment for our work duri
 
 ### Python Software
 
-Python software is distributed as a series of *libraries* that are called within your code to perform certain tasks. There are many different collections, or *distributions* of Python software. Generally you install a specific distribution of Python and then add additional libraries as you need them. There are also several different *versions* of Python. The two main versions right now are 2.7 and 3.6. Some libraries only work with specific versions of Pytho
+Python software is distributed as a series of *libraries* that are called within your code to perform certain tasks. There are many different collections, or *distributions* of Python software. Generally you install a specific distribution of Python and then add additional libraries as you need them. There are also several different *versions* of Python. The two main versions right now are 2.7 and 3.7, although Python 2.7 will not be supported past 2020. Some libraries only work with specific versions of Python.
 
 So even though Python is one of the most adaptable, easy-to-use software systems, you can see there are still complexities to work out and potential challenges when delivering content to a large group. Therefore we have a number of different ways that we are trying to simplify this process to maximize your learning during the hackweek.
 
@@ -59,17 +59,17 @@ conda update conda --yes
 
 *NOTE: If you don't have time or disk space for the entire distribution do not install Anaconda. Install only [Miniconda](http://conda.pydata.org/miniconda.html), a bootstrap version of Anaconda, which contains only Python, essential packages, and conda. We will provide an environment file to install all the packages necessary for the Oceanhackweek.*
 
-[Anaconda](https://www.anaconda.com/distribution/) is a data science platform that comes with a lot of packages. At the core, Anaconda uses conda package management system.
+[Anaconda](https://www.anaconda.com/distribution/) is a data science platform that comes with a lot of packages. At its core, Anaconda uses the conda package management system.
 
-List of packages included can be found [*here*](https://docs.anaconda.com/anaconda/packages/pkg-docs)
+The list of packages included can be found [*here*](https://docs.anaconda.com/anaconda/packages/pkg-docs)
 
 1. To install Anaconda, please click on the link below for your operating system, and follow the instructions on the [site](https://www.anaconda.com/download/).
-2. Once Anaconda installation step is finished run `python` in the command line to test if Anaconda is installed correctly. **Note: For windows, please use Anaconda prompt as the command line. It should be installed with your installation of Anaconda**
+2. Once Anaconda installation step is finished run `python` in the command line to test if Anaconda is installed correctly. **Note: For windows, please use the Anaconda prompt as the command line. It should be installed with your installation of Anaconda**
 If Anaconda is installed correctly, you should have this prompt, which emphasizes **Anaconda**:
 
 ```bash
 $ python
-Python 3.6.4|Anaconda custom (x86_64)| (default, Jan 16 2018, 18:57:58)
+Python 3.7.3|Anaconda custom (x86_64)| (default, Mar 27 2019, 22:11:17)
 ...
 ```
 
@@ -88,20 +88,21 @@ SETX PATH "%PATH%;C:\Users\lsetiawan\Miniconda3\Scripts;C:\Users\lsetiawan\Minic
 {: .callout}
 
 ### Installing Python
-We will be using Python 3.6 during the week. Each tutorial will have their own conda environment that contains the correct libraries to carry out the tutorial. If you are already familiar with Python 2.7, you can take a look at the syntax differences [here](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html), but the main point to remember is to put the print statements in parentheses:
+
+We will be using Python 3.6 or 3.7 during the week (either will work). If you are already familiar with Python 2.7, you can take a look at the syntax differences [here](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html), but the main point to remember is to put the print statements in parentheses:
 ```python
 print('Hello World!')
 ```
 
 
 ``` bash
-$ conda create -n py36 python=3.6
+$ conda create -n py37 python=3.7
 ```
 
-To use Python 3.6: 
+To use Python 3.7: 
 
 ``` bash
-$ source activate py36
+$ source activate py37
 ```
 
 To check if you have the correct version: 
