@@ -1,7 +1,4 @@
-# Pre-event material for geohackweek
+# Pre-event material for ICESat-2hackweek
 
-These are files to build a github website hosting the [geohackweek](https://geohackweek.github.io/) introductory [tutorial](https://geohackweek.github.io/preliminary). Github automatically renders these files using Ruby to build the website.
-
-Pull-requests to expand on our tutorial content are encouraged. Changes can be made to the markdown files located in the [episodes folder](https://github.com/geohackweek/preliminary/tree/gh-pages/_episodes)
-
+Please work through these lessons in advance of our event!
    
