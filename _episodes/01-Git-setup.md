@@ -55,9 +55,9 @@ We have created a GitHub organization called [ICESat-2hackweek](https://github.c
 
 ### How should I configure my GitHub account?
 
-As you'll learn in the next lesson, we will use the ICESat-2hackweek GitHub organization as a way to manage access to our cloud computing resources. In order for this to work each person must have public, rather than private membership in the ICESat-2hackweek organization.
+As you'll learn in the next lesson, we will use the [ICESat-2hackweek](https://github.com/icesat-2hackweek) GitHub organization as a way to manage access to our cloud computing resources. In order for this to work each person must have public, rather than private membership in the ICESat-2hackweek organization.
 
-First, navigate to the "People" tab on the ICESat-2hackweek GitHub organization:
+First, navigate to the "People" tab on the [ICESat-2hackweek](https://github.com/icesat-2hackweek) GitHub organization:
 
 <br>
 <img src="../files/images/private-github.png" width = "400" style="border:2px solid black">
@@ -74,7 +74,7 @@ The steps for doing this are also well documented on [this](https://help.github.
 
 ### How will GitHub repositories be structured?
 
-When you click on the "Repositories" tab in the ICESat-2hackweek GitHub Organization you will see a list of names, each of which links to a separate GitHub repository:
+When you click on the "Repositories" tab in the [ICESat-2hackweek](https://github.com/icesat-2hackweek) GitHub Organization you will see a list of names, each of which links to a separate GitHub repository:
 
 
 <br>
@@ -85,5 +85,6 @@ Each repository is a container for a specific subset of material for this event.
 
 ### How do I learn more?
 
-We encourage you to start practicing with Git and GitHub in advance of this event. Our tutorials will follow [this](https://berkeley-stat159-f17.github.io/stat159-f17/lectures/01-git/Git-Tutorial..html) lesson. Additional tutorial content from our past hackweeks is [here](https://geohackweek.github.io/Introductory/03-git-tutorial/). As always, feel free to post questions on Slack if you run into any difficulties!
+We encourage you to start practicing with Git and GitHub in advance of this event. Our tutorials will follow [this](https://berkeley-stat159-f17.github.io/stat159-f17/lectures/01-git/Git-Tutorial..html) lesson. Additional tutorial content from our past hackweeks is [here](https://geohackweek.github.io/Introductory/03-git-tutorial/). As always, feel free to post questions on
+[Slack](https://icesat2hackweek2019.slack.com/messages/CDQFBU571/) if you run into any difficulties!
 
