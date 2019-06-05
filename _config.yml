@@ -10,7 +10,7 @@ kind: "lesson"
 title: "Pre-event Material"
 
 # Repository URL (without trailing slash).
-repo: https://github.com/geohackweek/preliminary
+repo: https://github.com/icesat-2hackweek/preliminary
 
 # Root URL below username.github.io domain, with leading slash but no trailing slash.
 # For example, for 'https://geohackweek.github.io/lesson-example', use '/lesson-example'.
@@ -27,8 +27,8 @@ email: arendta@uw.edu
 is_production: true
 
 # Sites.
-ghw_site: "https://geohackweek.github.io"
-ghw_github: "https://github.com/geohackweek"
+ghw_site: "https://icesat-2hackweek.github.io"
+ghw_github: "https://github.com/icesat-2hackweek"
 swc_site: "https://software-carpentry.org"
 template_repo: "https://github.com/swcarpentry/styles"
 example_repo: "https://github.com/swcarpentry/lesson-example"
