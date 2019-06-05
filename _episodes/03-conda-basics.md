@@ -89,7 +89,9 @@ SETX PATH "%PATH%;C:\Users\lsetiawan\Miniconda3\Scripts;C:\Users\lsetiawan\Minic
 
 ### Installing Python
 
-We will be using Python 3.6 or 3.7 during the week (either will work). If you are already familiar with Python 2.7, you can take a look at the syntax differences [here](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html), but the main point to remember is to put the print statements in parentheses:
+We will be using Python 3.6 or 3.7 during the week (either will work). Since Anaconda (on Linux) expects you to work in the "bash" shell, if this is not already your default shell, you need to set it to be so (use the "chsh -s /bin/bash" command to change your default shell to bash) or just run an instance of bash from the command line before issuing "Conda" commands (/bin/bash or where it is located on your system).
+
+If you are already familiar with Python 2.7, you can take a look at the syntax differences [here](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html), but the main point to remember is to put the print statements in parentheses:
 ```python
 print('Hello World!')
 ```
