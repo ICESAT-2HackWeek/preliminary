@@ -111,3 +111,17 @@ After issuing the Git clone command you should see something like this:
 <br>
 
 ### How do I end my Pangeo session? Will I lose all of my work?
+
+When you are finished working for the day it is important to explicitly log out of your Pangeo session. The reason for this is it will save us a bit of money! When you keep a session active it uses up AWS resources and keeps a series of virtual machines deployed. 
+
+To stop the server, navigate to "Hub --> Control Panel" and then click the "Stop my server" button:
+
+<br>
+<br>
+<img src="../files/images/stop-server.png" width = "500" style="border:2px solid black">
+<br>
+<br>
+
+> ## NOTE
+> * Logging out will **NOT** cause any of your work to be lost or deleted. It simply shuts down some resources. It would be equivalent to turning off your desktop computer at the end of the day.
+{: .callout}
