@@ -2,3 +2,4 @@
 
 Please work through these lessons in advance of our event!
    
+(trying my best)
