@@ -71,6 +71,5 @@ We require all participants to work through the next 4 lessons in advance of our
 * [Lesson 4](https://icesat-2hackweek.github.io/preliminary/04-Earthdata): getting a NASA Earthdata login
 
 ### How do I ask questions about the ICESat-2 Hackweek
-If you have technical or general questions about the Hackweek. Please use the Genaral channel on Slack. 
-https://icesat2hackweek2019.slack.com/messages/CDQFBU571/
+If you have technical or general questions about the Hackweek. Please use the General channel on [Slack](https://icesat2hackweek2019.slack.com/messages/CDQFBU571/)
 
