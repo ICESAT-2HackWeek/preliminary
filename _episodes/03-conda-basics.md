@@ -57,7 +57,7 @@ conda update conda --yes
 
 ### Installing Anaconda (Optional)
 
-*NOTE: If you don't have time or disk space for the entire distribution do not install Anaconda. Install only [Miniconda](http://conda.pydata.org/miniconda.html), a bootstrap version of Anaconda, which contains only Python, essential packages, and conda. We will provide an environment file to install all the packages necessary for the Oceanhackweek.*
+*NOTE: If you don't have time or disk space for the entire distribution do not install Anaconda. Install only [Miniconda](http://conda.pydata.org/miniconda.html), a bootstrap version of Anaconda, which contains only Python, essential packages, and conda. We will provide an environment file to install all the packages necessary for the hackweek.*
 
 [Anaconda](https://www.anaconda.com/distribution/) is a data science platform that comes with a lot of packages. At its core, Anaconda uses the conda package management system.
 
@@ -72,20 +72,6 @@ $ python
 Python 3.7.3|Anaconda custom (x86_64)| (default, Mar 27 2019, 22:11:17)
 ...
 ```
-
-> ## Additional steps for Windows
-> If you did not add conda to the PATH environment variable during the installation, please follow the steps below to manually add conda to your PATH environment variable.
-> 1. Open up **Anaconda Prompt** and figure out the location of `conda` and `python`.
-```
-where conda
-where python
-```
-You should get the location of `conda` (`C:\Users\lsetiawan\Miniconda3\Scripts\conda.exe`) and `python` (`C:\Users\lsetiawan\Miniconda3\python.exe`)
-> 2. Open up **Windows Command Prompt** or **Windows Powershell** and use the `SETX` command to add conda to path
-```
-SETX PATH "%PATH%;C:\Users\lsetiawan\Miniconda3\Scripts;C:\Users\lsetiawan\Miniconda3"
-```
-{: .callout}
 
 ### Installing Python
 
@@ -104,7 +90,7 @@ $ conda create -n py37 python=3.7
 To use Python 3.7: 
 
 ``` bash
-$ source activate py37
+$ conda activate py37
 ```
 
 To check if you have the correct version: 
