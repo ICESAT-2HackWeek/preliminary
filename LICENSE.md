@@ -6,7 +6,7 @@ permalink: /license/
 
 ## Instructional Material
 
-All geohackweek instructional material is made available under the [Creative Commons Attribution license][cc-by-human]. The following is a human-readable
+All ICESat-2hackweek instructional material is made available under the [Creative Commons Attribution license][cc-by-human]. The following is a human-readable
 summary of (and not a substitute for) the [full legal text of the CC BY 4.0 license][cc-by-legal].
 
 You are free:
@@ -22,8 +22,8 @@ license terms.
 Under the following terms:
 
 * **Attribution**---You must give appropriate credit (mentioning that
-  your work is derived from work that is Copyright © geohackweek and, where
-  practical, linking to http://geohackweek.github.io/), provide a [link to the
+  your work is derived from work that is Copyright © ICESat-2hackweek and, where
+  practical, linking to http://ICESAT-2HackWeek.github.io/), provide a [link to the
   license][cc-by-human], and indicate if changes were made. You may do
   so in any reasonable manner, but not in any way that suggests the
   licensor endorses you or your use.

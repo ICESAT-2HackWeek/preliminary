@@ -1,13 +1,13 @@
 # Contributing
 
-[Geohackweek][ghw-site] is an open source project, and we welcome
+[ICESat-2hackweek][ghw-site] is an open source project, and we welcome
 contributions of all kinds: new lessons, fixes to existing material, bug
 reports, and reviews of proposed changes are all welcome.
 
 ## Contributor Agreement
 
 By contributing, you agree that we may redistribute your work under [our license](LICENSE.md). In exchange, we will address your issues and/or assess your change proposal as promptly as we can, and help you become a member of our
-community. Everyone involved in [Geohackweek][ghw-site] agrees to abide by our
+community. Everyone involved in [ICESat-2hackweek][ghw-site] agrees to abide by our
 [code of conduct](CONDUCT.md).
 
 ## How to Contribute
@@ -59,9 +59,9 @@ In brief:
 
 You can [reach us by email][contact].
 
-[ghw-site]: http://geohackweek.github.io
+[ghw-site]: http://ICESAT-2HackWeek.github.io
 [contact]: mailto:arendta@uw.edu
-[issues]: https://github.com/geohackweek/preliminary/issues
+[issues]: https://github.com/ICESAT-2HackWeek/preliminary/issues
 [github]: http://github.com
 [github-flow]: https://guides.github.com/introduction/flow/
 [github-join]: https://github.com/join
